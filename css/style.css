@@ -1,0 +1,134 @@
+ body {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background: #EBF5EE;
+     font-family: 'Muli', sans-serif;
+ }
+
+ .container {
+     margin: auto;
+     width: 80%;
+     overflow: hidden;
+ }
+
+ header img {
+     display: inline-block;
+     float: left;
+     height: 200px;
+     width: 200px;
+     margin-top: 30px;
+
+
+ }
+
+ .logo {
+     display: inline-block;
+     float: right;
+     margin-top: 25px;
+     margin-left: auto;
+     margin-right: auto;
+     padding-right: 200px;
+     font-size: 45px;
+     color: #542344;
+ }
+
+
+
+ nav ul {
+     display: inline-block;
+     text-align: center;
+     width: 100%;
+     height: 60px;
+     margin-top: 60px;
+     border-top-style: solid;
+     border-top-width: 3px;
+     padding-top: 30px;
+     color: #808080;
+ }
+
+ nav a {
+     text-decoration: none;
+     color: #D8BFAA;
+     font-size: 20px;
+ }
+
+ nav a:hover {
+     color: #542344;
+     font-weight: bold;
+ }
+
+ nav .current a {
+     color: #542344;
+     font-weight: bold;
+ }
+
+ nav li {
+     list-style: none;
+     display: inline;
+     margin-left: 45px;
+     margin-right: 45px;
+
+ }
+
+ /*the border radius function gives a photo curved edges or can make it circular*/
+
+ .main-photo img {
+     width: 400px;
+     height: 400px;
+     margin-left: auto;
+     margin-right: auto;
+     display: inline-block;
+     float: left;
+     border-radius: 30%;
+ }
+
+ sidebar ul {
+     display: inline-block;
+     float: right;
+     margin-top: 50px;
+     font-size: 17px;
+
+ }
+
+ /*this helps with keeping the footer on the bottom when you have floating objects*/
+
+ .clear-fix {
+     clear: both;
+ }
+
+ /*private lesson page*/
+
+ .schedule {
+     text-align: center;
+ }
+
+ /*blog page*/
+
+ .blog {
+     text-decoration: underline;
+
+
+ }
+
+ /*be careful with the numbers for padding, this affects positioning*/
+
+ footer {
+     text-align: center;
+     padding: 20, 0, 20, 0;
+     margin-top: 30px;
+     position: relative;
+     bottom: 0;
+     width: 100%;
+     height: 90px;
+     font-size: 3em;
+ }
+
+ .fab fa-facebook-square,
+ .fab fa-instagram,
+ .fab fab fa-twitter-square {
+     background-color: red;
+     display: inline-block;
+     margin-top: 15px;
+
+ }
